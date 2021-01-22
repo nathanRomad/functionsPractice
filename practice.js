@@ -86,7 +86,7 @@ const words = [
 ]
 
 const filterFunction = () => {
-    if (words startsWith("k")) {
+    if () {
         
     } else {
         
