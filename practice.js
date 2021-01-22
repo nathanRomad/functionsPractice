@@ -60,9 +60,12 @@ if (speed > 75) {
 }
 console.log(output)
 }
-
 go("forwards", 74)
 
+const Go = (direction, speed) => {
+    console.log(`The car is moving ${direction} at ${speed} mph! ${speed > 75 ? "SLOW DOWN!" : ""}`)
+}
+Go("backwards", 88)
 /////////////////// Practice: Evens or Odds ///////////////////////////////
 
 const evenOrOdd = (number) => {
@@ -74,33 +77,35 @@ const evenOrOdd = (number) => {
         return result
     }
 }
-let resultEVENorODD = evenOrOdd(88)
-console.log(resultEVENorODD)
+console.log(evenOrOdd(89))
+// let resultEVENorODD = evenOrOdd(88)
+// console.log(resultEVENorODD)
+
+// const evenOrOdd = (number) => {
+//     return (number % 2 === 0 ? `${number} is an even number.` : `${number} is an odd number.`)
+// }
+// console.log(evenOrOdd(24))
 
 /////////////////// Practice: Double Functions ///////////////////////////////
-const words = [
-    "The", "killing", "complex", "houses",
-    "married", "kittens", "and", "single",
-    "soldiers", "and", "their", "kleptomaniacal",
-    "families"
-]
+// const words = [
+//     "The", "killing", "complex", "houses",
+//     "married", "kittens", "and", "single",
+//     "soldiers", "and", "their", "kleptomaniacal",
+//     "families"
+// ]
 
-const filterFunction = () => {
-    if () {
-        
-    } else {
-        
-    }
-return 
-}
-let filterResult = filterFunction()
+// const filterFunction = () => {
+//     let wordsFiltered = words.startsWith("k")
+// return wordsFiltered
+// }
+// let filterResult = filterFunction()
 
 
-const convertArray = () => {
-return 
-}
+// const convertArray = () => {
+// return 
+// }
 
-console.log()
+// console.log()
 
 
 
